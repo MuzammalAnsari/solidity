@@ -10,6 +10,7 @@ contract variables {
     bytes2 data = "ca";
     int8 lenght = 127;
     uint8 nibble_length = 255; 
+    address public owner = 0x1234567890123456789012345678901234567890;
 }
 
 // uint: Unsigned integer (cannot be negative)
